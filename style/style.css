@@ -58,7 +58,7 @@ button {
 }
 
 .right {
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .information {
@@ -85,6 +85,7 @@ button {
     flex-direction: column;
     font-size: 12px;
     font-weight: bold;
+    max-width: 250px;
 }
 
 .quote {
@@ -115,4 +116,16 @@ button {
     color: #E5E7EB;
     text-align: center;
     padding: 15px;
+}
+
+.main-image {
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+.card-image {
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
 }
