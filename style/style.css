@@ -13,9 +13,8 @@ body {
     padding: 0px 20px;
 }
 
-.header p {
-    font-size: 24px;
-    color: #F9FAF8;
+.header img {
+    max-height: 100px;
 }
 
 .header a {
@@ -102,13 +101,23 @@ button {
 }
 
 .sign-up {
-    margin: 200px auto;
+    margin: 150px auto;
     justify-content: center;
     display: flex;
     background-color: #3882F6;
-    max-width: 800px;
+    max-width: 1000px;
     color: #E5E7EB;
     align-items: center;
+    padding: 25px;
+    border-radius: 10px;
+    gap: 200px;
+}
+
+.sign-up button {
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    border-width: 2px;
 }
 
 .footer {
@@ -128,4 +137,16 @@ button {
     border-style: solid;
     border-width: 4px;
     border-radius: 10px;
+}
+
+.author {
+    text-align: end;
+}
+
+.quote-box {
+    max-width: 1000px;
+}
+
+.sign-up-title {
+    font-weight: bold;
 }
